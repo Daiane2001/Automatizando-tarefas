@@ -1,4 +1,4 @@
-Observação importante: Esse exemplo aprendi com o Lira da Hashtag Treinamentos 
+*Observação importante: Esse exemplo aprendi com o Lira da Hashtag Treinamentos.*
 
 Automatizando Tarefas
 Esse projeto, é para automatizar uma tarefa de cadastro de produtos no banco de dados da empresa. 
@@ -26,7 +26,7 @@ Do 12° passo até o 15° foi repetido para todos os campos que precisassem ser 
 16° Pedimos para o Python pressionar a tecla enter para enviar os dados que seriam cadastrados no banco de dados da empresa.
 17° Depois de preenchido o primeiro cadastro, pedimos para o mouse rolar o Scroll do mouse(aquela bolinha que tem no meio do mouse para subir ou descer a página) para o começo da página e repetir todo o processo, até cadastrar todos os itens da nossa base de dados.
 
-Dicas: O editor de código que estou usando é o visual Studio, a extensão que utilizei para compilar/rodar o código Python foi "Python" e "Python Debugger". Para ler o arquivo .csv, usei a extensão "Rainbow CSV".
+*Dicas: O editor de código que estou usando é o visual Studio, a extensão que utilizei para compilar/rodar o código Python foi "Python" e "Python Debugger". Para ler o arquivo .csv, usei a extensão "Rainbow CSV".*
 
 Observaram que utilizei muito as palavras "clicar", "pressionar" e "digitar"? Então, é que no Python funciona exatamente assim.
 
@@ -53,6 +53,17 @@ print(pyautogui.position())
 O pyautogui, nada mais é que uma biblioteca de automação que fornece métodos para controlar mouse e teclado.
 Essa biblioteca precisa ser instalada através do terminal, usando :
 pip install pyautogui
+ 
+Agora que já alinhamos as partes importantes, bora codar??!
+
+A primeira coisa que precisamos fazer é importar o pyautogui:
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/eb04d378-656d-4ed5-8e7b-c1400d108f56)
+ 
+Agora vamos que importamos o pyautogui, vamos poder usá-lo para o que precisarmos e nesse momento, precisamos que ele abra o chrome:
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/64a3344e-547b-45a7-a949-1ec9bf28295f)
+
+Agora que ele abriu o Chrome, precisamos informar qual link que 
+
 
 
 
