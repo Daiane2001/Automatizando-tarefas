@@ -62,7 +62,8 @@ A primeira coisa que precisamos fazer é importar o pyautogui:
 Agora vamos que importamos o pyautogui, vamos poder usá-lo para o que precisarmos e nesse momento, precisamos que ele abra o chrome:
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/64a3344e-547b-45a7-a949-1ec9bf28295f)
 
-Agora que ele abriu o Chrome, precisamos informar qual link que 
+Agora que ele abriu o Chrome, precisamos informar qual o link do site que ele precisa digitar e pressionar a tecla "enter" para ir pro destino informado. 
+
 
 
 
