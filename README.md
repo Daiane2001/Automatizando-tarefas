@@ -23,9 +23,7 @@
 <p></p>
 <p></p>
 <p>Do 12° passo até o 15° foi repetido para todos os campos que precisassem ser preenchidos com informações da nossa base de dados.</p>
-<p></p>
-<p></p>
-<p></p>
+
 <p>16° Pedimos para o Python pressionar a tecla enter para enviar os dados que seriam cadastrados no banco de dados da empresa.</p>
 <p>17° Depois de preenchido o primeiro cadastro, pedimos para o mouse rolar o Scroll do mouse(aquela bolinha que tem no meio do mouse para subir ou descer a página) para o começo da página e repetir todo o processo, até cadastrar todos os itens da nossa base de dados.</p>
 <p></p>
@@ -34,27 +32,39 @@
 <p>Observaram que utilizei muito as palavras "clicar", "pressionar" e "digitar"? Então, é que no Python funciona exatamente assim.</p>
 <p></p>
 <p>Quando quero que o Python digite alguma coisa, basta digitar o código:</p>
-pyautogui.write("Texto que quero que ele digite")
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/fe636165-d695-4b5c-98a6-0858281693fc)
+
 <p></p>
 <p>Quando quero que o Python pressione alguma tecla, basta digitar o código;</p>
-pyautogui.press("tab")
-pyautogui.press("enter")
-pyautogui.press("Win")
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/661992be-44bf-44ee-b3e9-f267cdd24e5f)
+
 <p></p>
 <p>Quando quero que o Python clique em algum lugar com o mouse, basta digitar:</p>
-pyautogui.click()
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/8b2545f4-49ee-4330-b969-ead2d4bdc26d)
+
 <p></p>
 <p>Para achar a posição exata do mouse, utilizamos:</p>
-pyautogui.position()
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/302657cc-9047-4747-b300-b6ec8e8e3f48)
+
 <p></p>
 <p>E para visualizar essa informação, precisamos mostrar no terminal com o código:</p>
-print()
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/612a019d-f3cb-49ce-b852-7255b7715757)
+
 <p></p>
 <p>Logo, usaremos a combinação dos dois códigos para mostrar a informação que queremos no terminal:</p>
-print(pyautogui.position())
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/96c8134e-2764-4f8f-a2fc-ab7b01eda043)
+
 <p></p>
 <p>O pyautogui, nada mais é que uma biblioteca de automação que fornece métodos para controlar mouse e teclado.Essa biblioteca precisa ser instalada através do terminal, usando:</p>
-pip install pyautogui
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/95056649-bb34-4302-ac02-acac572540e3)
+
  <p></p>
 <p>Agora que já alinhamos as partes importantes, bora codar??!</p>
 <p></p>
