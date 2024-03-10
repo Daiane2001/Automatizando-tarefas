@@ -29,7 +29,7 @@
 <p></p>
 *Dicas: O editor de código que estou usando é o visual Studio, a extensão que utilizei para compilar/rodar o código Python foi "Python" e "Python Debugger". Para ler o arquivo .csv, usei a extensão "Rainbow CSV".*
 <p></p>
-<p>Observaram que utilizei muito as palavras "clicar", "pressionar" e "digitar"? Então, é que no Python funciona exatamente assim.</p>
+<p>Observaram que utilizei muito as palavras: "clicar", "pressionar" e "digitar"? Então, é que no Python funciona exatamente assim.</p>
 <p></p>
 <p>Quando quero que o Python digite alguma coisa, basta digitar o código:</p>
 
@@ -140,7 +140,7 @@
 <p></p>
 
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/c9af69c7-dc50-4c79-b500-f0e746418a3a)
-<p>Acrescentei um tempo de 5 segundos para a próxima página ter tempo de carregar.</p>
+<p>Acrescentei um time de 5 segundos, para o Python esperar antes de fazer a próxima ação.</p>
 
 <p></p>
 
