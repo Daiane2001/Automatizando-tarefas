@@ -134,7 +134,10 @@ pip install pyautogui
 
 <p></p>
 
-![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/c5f38069-db75-4e9c-9b52-60acc7ca7d2f)
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/83a5a6dd-7dba-46a4-8c36-39c157a96944)
+
+
+
 
 
 
