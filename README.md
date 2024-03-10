@@ -101,6 +101,8 @@ Para apertar em logar é possível, fazer com três opções. A primeira opção
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/c9af69c7-dc50-4c79-b500-f0e746418a3a)
 Acrescentei um tempo de 5 segundos para a próxima página ter tempo de carregar.
 
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/c5f38069-db75-4e9c-9b52-60acc7ca7d2f)
+
 
 
 
