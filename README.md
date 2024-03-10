@@ -78,7 +78,22 @@ Logo após, antes da variável "link", chamamos a biblioteca time para pausar a 
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/58795ce9-ce70-4bca-be31-2134a05b7b3d)
 Neste exemplo especifiquei 10 segundos, assim ele vai conseguir abrir o Chrome, carregar a página e adicionar o link sem margem de erros. Lembrando que tudo depende da velocidade do seu 
 computador, para o meu preciso de 10s, mas pode colocar menos segundos também.
-
+ 
+ Como vai abrir outro link, vou seguir a mesma linha de raciocínio e deixar mais 10 segundos para conseguir carregar a url informada.
+ ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/0daa9f9a-32b4-410c-8a81-14d4c3f2155f)
+ 
+Vai abrir na página de Login. Agora, para fazer com que o Python clique na opção "E-mail", vou precisar usar o mouse. Nesse exemplo, vou deixar o mouse em cima da caixa de texto, como no exemplo abaixo.
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/ead2f485-76d2-4509-affa-fde36ab20438)
+Mas antes de colocar o mouse na caixa de texto, vamos precisar digitar o comando:
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/2af39ae9-2aa0-46e7-991d-dfe28d62460a)
+ rode
+Para verificar qual posição que o mouse está, compile a automação, apertando a seta no canto superior direito da tela no Visual Studio Code(Vscode):
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/23071274-ee48-4987-bc92-79183ab16168)
+ 
+Pedimos para encontrar a posição do mouse, mas observe que não deu nem tempo de chegar na posição que queríamos. Por isso, mais uma vez vamos usar o time, assim vamos conseguir minimizar a tela do VScode e entrar na tela do login.
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/52f8e5e7-d0fc-4da3-8dfd-3df7c7381d37)
+Agora sim você pode compilar a automação e deixar o mouse na posição que desejar.
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/aec30e47-609e-4141-a991-bafa93717579)
 
 
 
