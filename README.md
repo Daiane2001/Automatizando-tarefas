@@ -61,7 +61,7 @@ A primeira coisa que precisamos fazer é importar o pyautogui:
  
 Agora que importamos o pyautogui, vamos poder usá-lo para o que precisarmos e nesse momento, precisamos que ele abra o Chrome:
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/a8d392ae-fef2-4d6c-b7d5-958ec072189b)
-Como a automação faz tudo muito rápido, mesmo que a internet esteje lenta ou o seu computador esteje quase parando, mesmo que não carregue a página que ele precisa para colocar as informações, ele vai digitar onde estiver mesmo. Por isso, é recomendável estipular um tempo para que o Python execute cada comando pyautogui. Para isso utilizamos o .PAUSE:
+A automação faz tudo muito rápido, a velocidade da internet ou do computador não interferem em nada, então, mesmo que não carregue a página que ele precisa para colocar as informações, ele vai digitar onde estiver. Por isso, é recomendável estipular um tempo para que o Python execute cada comando pyautogui. Para isso utilizamos o .PAUSE:
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/fb3337a1-19f9-420c-a48c-30f6c64118b7)
 Agora, todos os comandos pyautogui que vierem abaixo desse código vão levar essa quantidade de segundos para rodar. Nesse exemplo, foi utilizado um segundo, mas podem colocar 0.5 para carregar mais rápido ou mais segundos, porque sua internet ou computador estão muito lentos e você quer garantir que não dê nenhum erro ao executar a automação futuramente. 
 
