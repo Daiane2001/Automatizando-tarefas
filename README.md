@@ -63,15 +63,21 @@ Agora que importamos o pyautogui, vamos poder usá-lo para o que precisarmos e n
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/a8d392ae-fef2-4d6c-b7d5-958ec072189b)
 A automação faz tudo muito rápido, a velocidade da internet ou do computador não interferem em nada, então, mesmo que não carregue a página que ele precisa para colocar as informações, ele vai digitar onde estiver. Por isso, é recomendável estipular um tempo para que o Python execute cada comando pyautogui. Para isso utilizamos o .PAUSE:
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/fb3337a1-19f9-420c-a48c-30f6c64118b7)
-Agora, todos os comandos pyautogui que vierem abaixo desse código vão levar essa quantidade de segundos para rodar. Nesse exemplo, foi utilizado um segundo, mas podem colocar 0.5 para carregar mais rápido ou mais segundos, porque sua internet ou computador estão muito lentos e você quer garantir que não dê nenhum erro ao executar a automação futuramente. 
+Agora, todos os comandos pyautogui que vierem abaixo desse código vão levar essa quantidade de segundos para rodar. Nesse exemplo, foi utilizado um segundo, mas podem colocar 0.5 para carregar mais rápido ou mais segundos, para garantir que não dê nenhum erro ao executar a automação futuramente. 
 
 
 Agora que ele abriu o Chrome, precisamos informar qual o link do site que ele precisa digitar e pressionar a tecla "enter" para ir pro destino informado. 
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/b0cb9474-6599-4727-8dfb-056b77940341) 
 Poderíamos deixar assim nesse exemplo, porque o link só será utilizado essa vez. Mas, se o link fosse utilizado mais de uma vez na automação, o ideal seria utilizar assim:
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/f93d0b9f-e6c7-44bf-a336-7ca4dca21959) 
-Dessa forma, fazemos o link virar uma variável e se precisar alterar o endereço da url, basta mudar diretamente na váriavel e quando precisar utilizá-lo, basta chamar a variável.
-
+Dessa forma, fazemos o link virar uma variável e se precisar alterar o endereço da url, basta mudar diretamente na váriavel e quando precisar utilizá-lo, basta chamar a variável "link".
+  
+Como, para entrar na internet geralmente leva mais tempo para carregar as informações, podemos fazer com que nesse momento específico da automação o Python insera as informações demorando mais tempo. Assim, garantimos que o Chrome esteje aberto para que a automação insira o link que ele deve pesquisar. Para isso, utilizamos a biblioteca "time" que já vem instalada no Python. Primeiro importamos essa biblioteca, podemos colocá-la embaixo da importação que fizemos do pyautogui no começo da automação.
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/bf26d498-66e4-42ef-8ec7-e17fe1f9645c)
+Logo após, antes da variável "link", chamamos a biblioteca time para pausar a automação no tempo que eu especificar.
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/58795ce9-ce70-4bca-be31-2134a05b7b3d)
+Neste exemplo especifiquei 10 segundos, assim ele vai conseguir abrir o Chrome, carregar a página e adicionar o link sem margem de erros. Lembrando que tudo depende da velocidade do seu 
+computador, para o meu preciso de 10s, mas pode colocar menos segundos também.
 
 
 
