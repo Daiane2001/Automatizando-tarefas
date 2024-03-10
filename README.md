@@ -93,7 +93,13 @@ Para verificar qual posição que o mouse está, compile a automação, apertand
 Pedimos para encontrar a posição do mouse, mas observe que não deu nem tempo de chegar na posição que queríamos. Por isso, mais uma vez vamos usar o time, assim vamos conseguir minimizar a tela do VScode e entrar na tela do login.
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/52f8e5e7-d0fc-4da3-8dfd-3df7c7381d37)
 Agora sim você pode compilar a automação e deixar o mouse na posição que desejar.
-![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/aec30e47-609e-4141-a991-bafa93717579)
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/aec30e47-609e-4141-a991-bafa93717579)  
+No meu caso apareceu x=439, y=371, copiei e colei do terminal e já pedi para o pyautogui clicar nessa posição. Depois que ele clicar, deve-]se pedir para ele digitar o email, passar para o próximo campo e digitar a senha:
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/91c550e9-cc4a-446f-9955-9189a7a1a57b)
+ 
+Para apertar em logar é possível, fazer com três opções. A primeira opção é pressionando a tecla "enter" com o pyautogui.press("enter"), a segunda é apertando a tecla "Tab" e em seguida "enter" com pyautogui.press("tab") e pyautogui.press("enter") e a terceira que é pegando a posição do mouse e em seguida apertando enter:
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/c9af69c7-dc50-4c79-b500-f0e746418a3a)
+Acrescentei um tempo de 5 segundos para a próxima página ter tempo de carregar.
 
 
 
