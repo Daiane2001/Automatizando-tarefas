@@ -283,22 +283,35 @@
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/2805e7a2-469e-4dde-86da-07bd68ee5291)
 
 
-<p>Observem acima que no campo da coluna "obs", nem todas as linhas possuem alguma informação. Neste caso vamos precisar fazer uma condição quando formos preencher este campo, mas para os outros campos podemos seguir a mesma linha de raciocínio que utilizamos no primeiro campo, falando para o pyautogui procurar na tabela a localização exata da linha e da coluna usada: </p>
-
-![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/92c40209-c00e-4c5d-a178-e9cbe61cfc3e)
+<p>Observem acima que no campo da coluna "obs", nem todas as linhas possuem alguma informação. Neste caso vamos precisar fazer uma condição quando formos preencher este campo, mas para os outros campos podemos seguir a mesma linha de raciocínio que utilizamos no primeiro campo, falando para o pyautogui procurar na tabela a localização exata da linha e da coluna usada. </p>
 
 <br/>
 
 <p>Agora vamos aplicar a condição para o campo "obs", falando que se não tiver nenhum valor é pra seguir normalmente a automação.</p>
 
-<p> Para </p>
+<p> Vamos começar declarando a variável "obs" e pedindo para ela guardar a localização da linha e da coluna utilizada. Depois vamos utilizar o comando if dizendo, se o valor da variável estiver vazio pressione a tecla "tab": </p>
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/4864fa7c-09a9-4500-8b38-54512c1c3a3d)
+ 
+<p>Como informado na imagem, o pandas utiliza um método chamado isna(),para detectar se tem valores ausentes dentro do objeto que informamos, que no nosso caso é a variável "obs".</p>
 
 <br/>
+
+<p>Assim, concluimos a nossa automação. Espero ter te ajudado a compreender todos os códigos utilizados nesta aplicação e o funcionamento de cada um deles.</p>
+
+<br/>
+
+<h3>Atenciosamente, Daiane Santana de Oliveira.</h3>
+
+<br/>
+
 *Bibliografia:*
-<br/>
-*https://www.devmedia.com.br/for-python-estrutura-de-repeticao-for/38513*
-**
 
-
+<ul>
+<li><p>Lira da Hashtag Treinamentos</p> </li>
+<li><p>https://www.devmedia.com.br/for-python-estrutura-de-repeticao-for/38513</p></li>
+<li><p>https://www.alura.com.br/artigos/pandas-o-que-e-para-que-serve-como-instalar</p></li>
+<li><p>https://acervolima.com/funcao-pandas-isna-em-python/</p></li>
+</ul>
 
 
