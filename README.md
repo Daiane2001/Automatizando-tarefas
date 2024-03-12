@@ -308,7 +308,7 @@
 *Bibliografia:*
 
 <ul>
-<li><p>Lira da Hashtag Treinamentos</p> </li>
+<li><p>Lira da Hashtag Treinamentos.</p> </li>
 <li><p>https://www.devmedia.com.br/for-python-estrutura-de-repeticao-for/38513</p></li>
 <li><p>https://www.alura.com.br/artigos/pandas-o-que-e-para-que-serve-como-instalar</p></li>
 <li><p>https://acervolima.com/funcao-pandas-isna-em-python/</p></li>
