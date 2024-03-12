@@ -222,6 +222,7 @@
 <br/>
 
 <p>Observem que quando cadastramos o primeiro produto, ele vai mostrar na parte de baixo da tela:</p>
+
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/8136fc7a-7a04-4a76-a93c-969ab5b8727a)
 <p>Interessante, mas como vamos cadastrar o próximo produto? Se você pensou em voltar para o inicio da tela, acertou. Mas como podemos fazer isso? Sabe aquela bolinha que tem no meio do mouse que nos faz navegar para cima e para baixo nas telas? Então, aqui no Python podemos fazer com que o mouse gire essa bolinha até o inicio da tela, essa bolinha se chama scroll, com o código:</p>
 
