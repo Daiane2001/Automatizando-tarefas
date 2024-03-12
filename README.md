@@ -1,6 +1,6 @@
 *__Observação importante:__ Esse exemplo aprendi com o Lira da Hashtag Treinamentos.*
 <h1>Automatizando Tarefas</h1>
-<p style="text-align:justify">Esse projeto é para automatizar uma tarefa de cadastro de produtos, no banco de dados da empresa. </p>
+<p style="align:justify">Esse projeto é para automatizar uma tarefa de cadastro de produtos, no banco de dados da empresa. </p>
 <p></p>
 
 <h3>Passo-a-passo da automação:</h3>
