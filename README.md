@@ -1,6 +1,6 @@
 *__Observação importante:__ Esse exemplo aprendi com o Lira da Hashtag Treinamentos.*
 <h1>Automatizando Tarefas</h1>
-<p>Esse projeto é para automatizar uma tarefa de cadastro de produtos, no banco de dados da empresa. </p>
+<p style="text-align:justify">Esse projeto é para automatizar uma tarefa de cadastro de produtos, no banco de dados da empresa. </p>
 <p></p>
 
 <h3>Passo-a-passo da automação:</h3>
@@ -112,7 +112,7 @@
 <p>Agora que ele abriu o Chrome, precisamos informar qual o link do site que ele precisa digitar e pressionar a tecla "enter" para ir pro destino informado. </p>
 
 
-![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/b0cb9474-6599-4727-8dfb-056b77940341) 
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/53fb5a8f-e9ac-4f5e-9638-c07868f27de2)
 
 <p>Poderíamos deixar assim nesse exemplo, porque o link só será utilizado essa vez. Mas, se o link fosse utilizado mais de uma vez na automação, o ideal seria utilizar assim:</p>
 
