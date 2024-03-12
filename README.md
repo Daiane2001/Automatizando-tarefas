@@ -5,26 +5,26 @@
 
 <h3>Passo-a-passo da automação:</h3>
 <br/>
-<p>1° Pedimos para o Python pressionar a tecla "Windows" do teclado.</p>
-<p>2° Pedimos para digitar Chrome (Pode ser qualquer navegador do seu interesse).</p>
-<p>3° Pedimos para pressionar a tecla enter no Chrome.</p>
-<p>4° Pedimos para digitar no Chrome, o site que utilizamos para o login do usuário que irá cadastrar os produtos no sistema da empresa.</p>
-<p>5° Pedimos para pressionar a tecla enter do teclado.</p>
-<p>6° Pedimos para o Python clicar na posição exata em que estava a opção de e-mail. (Para isso encontramos a posição do mouse, vou explicar a seguir).</p>
-<p>7° Pedimos para o Python digitar o e-mail.</p>
-<p>8° Pedimos para o Python pressionar a opção "Tab" do teclado, para mudar para a opção senha.</p>
-<p>9° Pedimos para o Python digitar a senha.</p>
-<p>10° Pedimos para o Python pressionar a tecla "Tab" do teclado, para mudar para a opção enter.</p>
-<p>11° Pedimos para o Python clicar na opção exata do primeiro item a ser cadastrado (também encontrando a posição do Mouse).<p>
-<p>12° Pedimos para o Python digitar a informação que estava na nossa base de dados. </p>
-<p>13° Pedimos para o Python pressionar a tecla "Tab" do teclado para passar para o próximo campo.</p>
-<p>14° Pedimos para o Python digitar a informação que estava na nossa base de dados. </p>
-<p>15° Pedimos para o Python pressionar a tecla "Tab" do teclado para passar para o próximo campo.</p>
+<p><b>1°</b> Pedimos para o Python pressionar a tecla "Windows" do teclado.</p>
+<p><b>2°</b> Pedimos para digitar Chrome (Pode ser qualquer navegador do seu interesse).</p>
+<p><b>3°</b> Pedimos para pressionar a tecla enter no Chrome.</p>
+<p><b>4°</b> Pedimos para digitar no Chrome, o site que utilizamos para o login do usuário que irá cadastrar os produtos no sistema da empresa.</p>
+<p><b>5°</b> Pedimos para pressionar a tecla enter do teclado.</p>
+<p><b>6°</b> Pedimos para o Python clicar na posição exata em que estava a opção de e-mail. (Para isso encontramos a posição do mouse, vou explicar a seguir).</p>
+<p><b>7°</b> Pedimos para o Python digitar o e-mail.</p>
+<p><b>8°</b> Pedimos para o Python pressionar a opção "Tab" do teclado, para mudar para a opção senha.</p>
+<p><b>9°</b> Pedimos para o Python digitar a senha.</p>
+<p><b>10°</b> Pedimos para o Python pressionar a tecla "Tab" do teclado, para mudar para a opção enter.</p>
+<p><b>11°</b> Pedimos para o Python clicar na opção exata do primeiro item a ser cadastrado (também encontrando a posição do Mouse).<p>
+<p><b>12°</b> Pedimos para o Python digitar a informação que estava na nossa base de dados. </p>
+<p><b>13°</b> Pedimos para o Python pressionar a tecla "Tab" do teclado para passar para o próximo campo.</p>
+<p><b>14°</b> Pedimos para o Python digitar a informação que estava na nossa base de dados. </p>
+<p><b>15°</b> Pedimos para o Python pressionar a tecla "Tab" do teclado para passar para o próximo campo.</p>
 <br/>
 <p>Do 12° passo até o 15° foi repetido para todos os campos que precisassem ser preenchidos com informações da nossa base de dados.</p>
 <br/>
-<p>16° Pedimos para o Python pressionar a tecla enter para enviar os dados que seriam cadastrados no banco de dados da empresa.</p>
-<p>17° Depois de preenchido o primeiro cadastro, pedimos para o mouse rolar o Scroll do mouse(aquela bolinha que tem no meio do mouse para subir ou descer a página) para o começo da página e repetir todo o processo, até cadastrar todos os itens da nossa base de dados.</p>
+<p><b>16°</b> Pedimos para o Python pressionar a tecla enter para enviar os dados que seriam cadastrados no banco de dados da empresa.</p>
+<p><b>17°</b> Depois de preenchido o primeiro cadastro, pedimos para o mouse rolar o Scroll do mouse(aquela bolinha que tem no meio do mouse para subir ou descer a página) para o começo da página e repetir todo o processo, até cadastrar todos os itens da nossa base de dados.</p>
 <br/>
 
 *Dicas: O editor de código que estou usando é o visual Studio, a extensão que utilizei para compilar/rodar o código Python foi "Python" e "Python Debugger". Para ler o arquivo .csv, usei a extensão "Rainbow CSV".*
@@ -67,7 +67,14 @@
 
 <br/>
 
-<p>O pyautogui, nada mais é que uma biblioteca de automação que fornece métodos para controlar mouse e teclado.Essa biblioteca precisa ser instalada através do terminal, usando:</p>
+<p>Para verificar a posição em que o mouse está, compile a automação, apertando a seta no canto superior direito da tela no Visual Studio Code(Vscode):</p>
+
+
+ ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/23071274-ee48-4987-bc92-79183ab16168)
+ 
+<br/>
+
+<p>O pyautogui, nada mais é que uma biblioteca de automação, que fornece métodos para controlar mouse e teclado.Essa biblioteca precisa ser instalada através do terminal, usando:</p>
 
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/95056649-bb34-4302-ac02-acac572540e3)
 
@@ -104,11 +111,10 @@
 
 <p>Agora que ele abriu o Chrome, precisamos informar qual o link do site que ele precisa digitar e pressionar a tecla "enter" para ir pro destino informado. </p>
 
-<br/>
 
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/b0cb9474-6599-4727-8dfb-056b77940341) 
+
 <p>Poderíamos deixar assim nesse exemplo, porque o link só será utilizado essa vez. Mas, se o link fosse utilizado mais de uma vez na automação, o ideal seria utilizar assim:</p>
-<br/>
 
 
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/f93d0b9f-e6c7-44bf-a336-7ca4dca21959) 
@@ -150,7 +156,7 @@
 
 <br/>
 
-<p>Para verificar qual posição que o mouse está, compile a automação, apertando a seta no canto superior direito da tela no Visual Studio Code(Vscode):</p>
+<p>Para verificar a posição em que o mouse está, compile a automação, apertando a seta no canto superior direito da tela no Visual Studio Code(Vscode):</p>
 
 
  ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/23071274-ee48-4987-bc92-79183ab16168)
@@ -178,15 +184,50 @@
 
 
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/c9af69c7-dc50-4c79-b500-f0e746418a3a)
-<p>Acrescentei um time de 5 segundos, para o Python esperar antes de fazer a próxima ação.</p>
+<p>Acrescentei um time de 5 segundos, para o Python esperar antes de fazer a próxima ação. Assim, vai dar tempo para o meu computador e a internet, abrirem a tela de formulário para cadastro de produtos e o Phython conseguir clicar na posição exata que está a primeira caixa de texto e começar a digitar as informações que estão na nossa base de dados.</p>
+
+<br/>
+ 
+<p>Como informei anteriormente, nessa parte também vamos precisar encontrar a posição do mouse. Então compile a automação, vá até a página do formulário de cadastro de produtos e deixe o mouse nessa posição:</p>
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/83a5a6dd-7dba-46a4-8c36-39c157a96944)
+<p>Se você estiver feito o processo corretamente, no terminal vai aperecer a posição exata do mouse e você vai pegar essa informação e pedir para o Python clicar:</p>
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/58dbc80c-c2e5-476c-9d2c-3414c38d12fe)
+<p>No meu caso, apareceu x=807, y=255, então pedi para o Python clicar nessa posição</p>
+
+<br/>
+ 
+<p>Nesse momento, antes de pedirmos para o Python pegar as informações que estão na nossa base de dados, arquivo "produtos.csv", precisamos fazer com que o Python entenda que precisa clicar nesse primeiro campo, digitar uma informação, apertar a tecla "Tab" para passar para o próximo campo, digitar outra informação, apertar a tecla "Tab" novamente e assim sucetivamente, até que a tecla "Tab" enteja na posição de enviar as informações.</p>
 
 <br/>
 
-![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/83a5a6dd-7dba-46a4-8c36-39c157a96944)
+<p>Ótimo! Com o Mouse na posição do primeiro campo, vamos usar os comandos pyautogui para digitar algo lá dentro da caixa e apertar a tecla "tab" para passar para o próximo campo:</p>
 
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/e80c4316-3aba-40b7-95f2-d3ade5ea8941)
+<p>Digitamos o código e passamos para o próximo campo. Agora vamos fazer o mesmo processo com o pyautogui para digitar a informação e apertar a tecla "tab":</p>
 
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/343ceb42-ecc1-4890-b634-5e462210160f)
+<p>Esse mesmo processo vai ser repetido para todos os campos, fizemos juntos o código e a marca, agora repita esse processo para tipo, categoria, preço unitário, custo e observações.</p>
 
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/cb7c4395-97cd-4292-b891-fa8ba02cdd45)
+<p>Visualmente a automação deve estar assim: </p>
 
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/f2c5508b-de9b-4245-8969-3e3609c43393)
 
+<p>Podemos observar que o pyautogui já colocou todas as informações que pedimos para ele inserir. Agora podemos enviar as informações através da tecla enter e cadastrar um novo produto.</p>
 
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/0506725e-8703-494b-b11b-76c68685ad6c)
+
+<p>Esse processo vai se repetir até acabar os produtos que temos que puxar da nossa base de dados. </p>
+
+<br/>
+
+<p>Certo, finalizamos o processo de cadastrar o primeiro produto. Você deve estar se perguntando sobre não termos pegado diretamente as informações da nossa base de dados. Mas não se preocupe, esse processo tivemos que fazer para dar um passo a passo para o pyautogui seguir, você não precisará fazer esse processo novamente.</p>
+
+<br/>
+
+<p></p>
+
+<p>Se você abriu o arquivo "produtos.csv", pôde verificar que nem todos os campos da coluna "obs" estão preenchidos. Não se preo</p>
 
