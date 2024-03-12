@@ -8,7 +8,7 @@
 <p><b>1°</b> Pedimos para o Python pressionar a tecla "Windows" do teclado.</p>
 <p><b>2°</b> Pedimos para digitar Chrome (Pode ser qualquer navegador do seu interesse).</p>
 <p><b>3°</b> Pedimos para pressionar a tecla enter no Chrome.</p>
-<p><b>4°</b> Pedimos para digitar no Chrome, o site que utilizamos para o login do usuário que irá cadastrar os produtos no sistema da empresa.</p>
+<p style="text-align:justify"><b>4°</b> Pedimos para digitar no Chrome, o site que utilizamos para o login do usuário que irá cadastrar os produtos no sistema da empresa.</p>
 <p><b>5°</b> Pedimos para pressionar a tecla enter do teclado.</p>
 <p><b>6°</b> Pedimos para o Python clicar na posição exata em que estava a opção de e-mail. (Para isso encontramos a posição do mouse, vou explicar a seguir).</p>
 <p><b>7°</b> Pedimos para o Python digitar o e-mail.</p>
