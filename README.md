@@ -231,19 +231,25 @@
 
 <br/>
    
-*Importante: Se você informar um valor positivo como no exemplo acima, o pyautogui vai girar o scroll para cima, se colocar um valor negativo, por exemplo -150, o pyautogui vai girar o scroll para baixo.*
+*Importante: Se você informar um valor positivo como no exemplo acima, o pyautogui vai girar o scroll para cima, se colocar um valor negativo, por exemplo "pyautogui.scroll(-150)", o pyautogui vai girar o scroll para baixo.*
 
 <br/>
 
 <p>Esse processo vai se repetir até acabar os produtos que temos que puxar da nossa base de dados. </p>
 
 <br/>
-
-<p>Certo, finalizamos o processo de cadastrar o primeiro produto. Você deve estar se perguntando sobre não termos pego diretamente as informações da nossa base de dados. Mas não se preocupe, esse processo tivemos que fazer para dar um passo a passo para o pyautogui seguir, mas você não precisará fazer esse processo novamente.</p>
+ 
+<p>Certo, finalizamos o processo de cadastrar o primeiro produto. Você deve estar se perguntando sobre não termos pego diretamente as informações da nossa base de dados, mas não se preocupe, esse processo tivemos que fazer para dar um passo a passo para o pyautogui seguir, você não precisará fazer esse processo novamente.</p>
 
 <br/>
 
-<p></p>
+<p>Agora sim vamos começar a pegar as informações da nossa base de dados. A primeira coisa que você precisará fazer, é instalar a biblioteca pandas no terminal. Ela é uma biblioteca para Ciências de Dados de código aberto (open source), e que providencia uma abordagem rápida e flexível. Para instalar, basta digitar no terminal: </p>
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/e4dc6e82-c4cb-41bb-8cbe-c9344cafabf7)
+ 
+<p>É aconselhável instalar a biblioteca completa, como no exemplo acima, porque pode ocorrer de uma determinada base de dados precisar ser trabalhada ou manuseada de forma diferente e instalando a biblioteca completa evitamos precisar fazer novas instalações.</p>
+
+<br/>
 
 <p>Se você abriu o arquivo "produtos.csv", pôde verificar que nem todos os campos da coluna "obs" estão preenchidos. Não se preo</p>
 
