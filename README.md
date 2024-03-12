@@ -270,6 +270,26 @@
 
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/0ef9e68e-4522-4608-b4bf-28ec8b816fb2)
 
+<p>Agora precisamos voltar no primeiro campo e no lugar em colocamos uma informação aleatória, vamos pedir para o pyautogui localizar na tabela essa linha e essa coluna. O valor da linha vai ser mudada consecutivamente, então só precisamos colocar o valor exato da coluna que estamos utilizando nesse campo: </p>
 
-<p>Se você abriu o arquivo "produtos.csv", pôde verificar que nem todos os campos da coluna "obs" estão preenchidos. Não se preo</p>
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/e7f1c50a-ded7-4e9a-bb06-eaf7adee874c)
+ 
+<p>Você pode fazer desse jeito acima ou também criar uma variável por fora e pedir para ela guardar o valor exato da base de dados e depois só chama-lá, como no exemplo abaixo:</p>
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/4d9af120-b1f6-4124-817a-37e2b3a499b1)
+
+<p>Você pode escolher qual opção é melhor para o seu uso, só precisa lembrar que o valor da coluna deve ser escrita da mesma forma que estiver na base de dados. No nosso caso serão as seguintes informações: </p>
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/2805e7a2-469e-4dde-86da-07bd68ee5291)
+
+
+<p>Observem acima, que no campo da coluna "obs", nem todas as linhas possuem alguma informação. Neste caso vamos precisar fazer uma condição quando for preencher este campo, mas para os outros campos podemos seguir a mesma linha de raciocínio que utilizamos no primeiro campo, falando para o pyautogui procurar na tabela a localização exata da linha e da coluna usada: </p>
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/92c40209-c00e-4c5d-a178-e9cbe61cfc3e)
+
+
+<br/>
+
+
+
 
