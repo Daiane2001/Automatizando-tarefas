@@ -247,9 +247,28 @@
 
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/e4dc6e82-c4cb-41bb-8cbe-c9344cafabf7)
  
-<p>É aconselhável instalar a biblioteca completa, como no exemplo acima, porque pode ocorrer de uma determinada base de dados precisar ser trabalhada ou manuseada de forma diferente e instalando a biblioteca completa evitamos precisar fazer novas instalações.</p>
+<p>É aconselhável instalar a biblioteca completa, como no exemplo acima, porque pode ocorrer, de uma determinada base de dados precisar ser trabalhada ou manuseada de forma diferente e instalando a biblioteca completa evitamos precisar fazer novas instalações.</p>
 
 <br/>
+
+<p>Depois de instalar a biblioteca, precisamos imortá-la:</p>
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/30767190-5ad0-4ece-bec2-f18a67ed52b7)
+
+<br/>
+  
+<p>Ótimo,  agora vamos ler a nossa base de dados. Para isso, primeiro, precisaremos falar qual que é a base de dados que queremos ler. No nosso caso, vai ser um arquivo "csv", mas poderia ser "sql", "html", "excel" ou outro arquivo, basta inserir o comando abaixo: </p>
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/ec245955-155d-4fb3-bd03-7aa1c1aaf2b8)
+
+<p>Nesse exemplo, criamos uma variável tabela para armazenar a nossa base de dados. Utlizamos a biblioteca pandas e pedimos para ler a nossa base de dados e informamos onde estava a nossa base de dados.</p>
+
+<br/>
+ 
+<p>Para que a nossa automação fique cadastrando cada linha que temos na nossa base de dados e só parar quando todas estiverem cadastradas, precisamos utilizar a estrutura de repetição for, que nos permite percorrer os itens de uma coleção e, para cada um deles, executar o bloco de código declarado no loop. No nosso caso, vamos declarar que para cada linha da nossa tabela, queremos pegar a informação correspondente a cada caixa de texto, mostrar na tela e logo após cadastrar. Vamos começar acrescentando o loop de repetição antes da linha que colocamos a posição do mouse para clicar no primeiro campo: </p>
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/0ef9e68e-4522-4608-b4bf-28ec8b816fb2)
+
 
 <p>Se você abriu o arquivo "produtos.csv", pôde verificar que nem todos os campos da coluna "obs" estão preenchidos. Não se preo</p>
 
