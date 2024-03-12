@@ -219,11 +219,27 @@
 
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/0506725e-8703-494b-b11b-76c68685ad6c)
 
+<br/>
+
+<p>Observem que quando cadastramos o primeiro produto, ele vai mostrar na parte de baixo da tela:</p>
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/8136fc7a-7a04-4a76-a93c-969ab5b8727a)
+<p>Interessante, mas como vamos cadastrar o próximo produto? Se você pensou em voltar para o inicio da tela, acertou. Mas como podemos fazer isso? Sabe aquela bolinha que tem no meio do mouse que nos faz navegar para cima e para baixo nas telas? Então, aqui no Python podemos fazer com que o mouse gire essa bolinha até o inicio da tela, essa bolinha se chama scroll, com o código:</p>
+
+![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/b7b07af1-a2d2-4d5d-9e4c-268ed25a12bf)
+
+<p>Todas as vezes que precisarmos rodar a tela para cima ou para baixo podemos usar o scroll. Coloquei o valor de 15000 para garantir que o pyautogui vai girar o scroll até chegar no inicio da tela.</p>
+
+<br/>
+   
+*Importante: Se você informar um valor positivo como no exemplo acima, o pyautogui vai girar o scroll para cima, se colocar um valor negativo, por exemplo -150, o pyautogui vai girar o scroll para baixo.*
+
+<br/>
+
 <p>Esse processo vai se repetir até acabar os produtos que temos que puxar da nossa base de dados. </p>
 
 <br/>
 
-<p>Certo, finalizamos o processo de cadastrar o primeiro produto. Você deve estar se perguntando sobre não termos pegado diretamente as informações da nossa base de dados. Mas não se preocupe, esse processo tivemos que fazer para dar um passo a passo para o pyautogui seguir, você não precisará fazer esse processo novamente.</p>
+<p>Certo, finalizamos o processo de cadastrar o primeiro produto. Você deve estar se perguntando sobre não termos pego diretamente as informações da nossa base de dados. Mas não se preocupe, esse processo tivemos que fazer para dar um passo a passo para o pyautogui seguir, mas você não precisará fazer esse processo novamente.</p>
 
 <br/>
 
