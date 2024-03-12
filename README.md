@@ -283,12 +283,21 @@
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/2805e7a2-469e-4dde-86da-07bd68ee5291)
 
 
-<p>Observem acima, que no campo da coluna "obs", nem todas as linhas possuem alguma informação. Neste caso vamos precisar fazer uma condição quando for preencher este campo, mas para os outros campos podemos seguir a mesma linha de raciocínio que utilizamos no primeiro campo, falando para o pyautogui procurar na tabela a localização exata da linha e da coluna usada: </p>
+<p>Observem acima que no campo da coluna "obs", nem todas as linhas possuem alguma informação. Neste caso vamos precisar fazer uma condição quando formos preencher este campo, mas para os outros campos podemos seguir a mesma linha de raciocínio que utilizamos no primeiro campo, falando para o pyautogui procurar na tabela a localização exata da linha e da coluna usada: </p>
 
 ![image](https://github.com/Daiane2001/Automatizando-tarefas/assets/62717387/92c40209-c00e-4c5d-a178-e9cbe61cfc3e)
 
+<br/>
+
+<p>Agora vamos aplicar a condição para o campo "obs", falando que se não tiver nenhum valor é pra seguir normalmente a automação.</p>
+
+<p> Para </p>
 
 <br/>
+*Bibliografia:*
+<br/>
+*https://www.devmedia.com.br/for-python-estrutura-de-repeticao-for/38513*
+**
 
 
 
